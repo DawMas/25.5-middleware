@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-//app.use(express.static('assets'));
 
 app.use('/store', function(req, res, next){
     console.log('Hej jestem posrednikiem przy zadaniu do /store');
